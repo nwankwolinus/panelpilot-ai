@@ -39,8 +39,9 @@ next-env.d.ts
 # TypeScript build info
 *.tsbuildinfo
 
-# Project documentation (pre-existing, tracked separately)
-docs/
+# Project documentation (pre-existing user files, tracked separately)
+docs/*
+!docs/architecture/
 
 # Antigravity agent config (not part of source)
 .agents/

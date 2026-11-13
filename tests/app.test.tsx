@@ -13,10 +13,10 @@ describe("PanelPilot AI Foundation", () => {
     expect(subtitle).toBeInTheDocument();
   });
 
-  it("displays the foundation initialization status", () => {
+  it("displays the architecture foundation status badge", () => {
     render(<HomePage />);
 
-    const statusBadge = screen.getByText(/foundation initialized/i);
+    const statusBadge = screen.getByText(/architecture foundation/i);
     expect(statusBadge).toBeInTheDocument();
   });
 });
