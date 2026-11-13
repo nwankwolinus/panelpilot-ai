@@ -1,0 +1,47 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js build output
+/.next/
+/out/
+/build/
+/dist/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables and secrets
+.env
+.env*.local
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.pem
+.vscode/
+.idea/
+
+# Next.js type declarations
+next-env.d.ts
+
+# Temporary or office lock files
+~$*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Project documentation (pre-existing, tracked separately)
+docs/
+
+# Antigravity agent config (not part of source)
+.agents/
+
